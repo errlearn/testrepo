@@ -1,27 +1,45 @@
-#box1 {
-  background-color: #888888;
-  padding: 30px;
-  border: 10px dashed red;
-  font-size: 30px;
-  width: 80%;
+body {
+  background-color: #000000;
 }
 
-#box2 {
-  box-sizing: content-box; /* This is alreday default */
+main p, div{
+  color: #FFFFFF ;
+  font-size: 24px;
+}
+
+#box1 {
+  box-sizing: border-box;
   background-color: #888888;
   width: 340px;
   height: 200px;
   padding: 20px;
-  border: 10px solid red;
-  margin: 30px;
+  border: 10px solid #98FB98;
+  border-radius: 5px;
+  margin: 30px 30px 40px;
+}
+
+#box2 {
+  box-sizing: border-box;
+  background-color: #888888;
+  width: 340px;
+  height: 200px;
+  padding: 20px;
+  border: 10px solid #98FB98;
+  border-radius: 5px;
+  margin: 50px 30px 30px;
+  position: relative;
+  bottom: 20px
 }
 
 #box3 {
   box-sizing: border-box;
   background-color: #888888;
-  width: 400px;
-  height: 260px;
+  width: 340px;
+  height: 200px;
   padding: 20px;
-  border: 10px solid red;
+  border: 10px solid #98FB98;
+  border-radius: 5px;
   margin: 30px;
+  position: relative;
+  top: 30px
 }
